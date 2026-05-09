@@ -118,7 +118,7 @@
             </button>
             <div class="brand">
                 <h1>OJOL AI ASISTEN</h1>
-                <p>Driver Online Kolaka</p>
+                <p>OJOL SANTUY KOLAKA</p>
             </div>
         </div>
         
@@ -227,7 +227,7 @@
         if (chatHistory[currentChatId]) {
             chatHistory[currentChatId].messages.forEach(msg => appendMessage(msg.role === 'user' ? 'user-message' : 'ai-message', msg.content));
         } else {
-            appendMessage('ai-message', 'Halo! Saya adalah asisten AI Anda. Ada yang bisa saya bantu hari ini?');
+            appendMessage('ai-message', 'Halo! Saya adalah asisten AI Anda. Saya di ciptakan oleh Farid Aris,  dan Saya baru saja diperbarui ke versi terbaru dan saat ini berfokus pada komunikasi berbasis teks. Ada yang bisa saya bantu hari ini?');
         }
         scrollToBottom();
         loadHistoryList();
